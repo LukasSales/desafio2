@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+:root {
+    --fonte-titulo:'Passion One', cursive;
+    --fonte-padrao:  'Sriracha', cursive; 
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+
+}
+
+body {
+    min-height: 100vh;
+    background-color: gray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+    font-family: var(--fonte-titulo);
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+}
+
+.poesia1 {
+    background-color: white;
+    color: black;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+
+article {
+    padding-bottom: 2em;
+}
+
+.poesia2 {
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+    background-repeat: no-repeat;
+    box-shadow: inset 5px 5px 13px 0px rgb(0 0 0 / 47%);
+    background-size: cover;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+.text2 {
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    font-size: 3.25vw;
+    line-height: 2em;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+.poesia3 {
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 13px 0px rgb(0 0 0/ 47%);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-size: 1em;
+}
